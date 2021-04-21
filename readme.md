@@ -1,6 +1,7 @@
 ***language model training***
 
-the obejective of this repo is to use transformer and tokenizer for language model training.
+the obejective of this repo is to use transformer and tokenizer for language model training.\
+this note is about basic setup with command line interface (terminal).
 
 1. setting up
 
@@ -20,11 +21,11 @@ to show the current versions of transformers and tokenizers:
 ```
 pip list | grep -E 'transformers|tokenizers'
 ```
-2. after training the tokenizer, save the model to directory
+2. after training the tokenizer, create directory for saving the model
 ```
 mkdir esperanto-bert
 ```
-3. training a new language model. First make sure pytorch is install:
+3. Make sure pytorch is install before training:
 ```
 pip install torch torchvision
 ```
